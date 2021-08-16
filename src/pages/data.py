@@ -7,7 +7,7 @@ from PIL import Image
 
 def main():
     st.title("Data")
-    st.subheader('Data was collected from from Johns Hopkins University’s repository on COVID-19 on Github.')
+    st.subheader('Data was collected from from Johns Hopkins University’s repository on COVID-19 on [Github](https://github.com/CSSEGISandData/COVID-19).')
     date = datetime.today()
     df = None
     load_state = st.text('Loading data......')
