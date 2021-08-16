@@ -2,8 +2,6 @@ import streamlit as st
 import src.pages.home
 import src.pages.data
 import src.pages.dashboard
-import src.pages.contribute
-import src.pages.about
 
 
 PAGES = {
